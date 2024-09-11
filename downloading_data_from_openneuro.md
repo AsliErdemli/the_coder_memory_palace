@@ -26,6 +26,7 @@ Beware! this might need to be updated to work better : get 'pip install datalad'
 Get datalad to install the data's structure: 
 
 `cd to_directory_starting_with_ds` 
+
 `datalad get *`
 
 
