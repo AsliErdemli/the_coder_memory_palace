@@ -4,4 +4,4 @@ This means that `datalad install can't find anything besides the directory root 
 
 Avoidant solution: download the data with the bash script found on the datasets openneuro page (in the download window). 
 
-Progress: Apparently this was just an OpenNeuro Bug. Raising an issue on openneurio.org/openneuro github would have been useful. 
+Progress: Apparently this was just an OpenNeuro Bug. Raising an issue on openneurio.org/openneuro github would have been useful. Chris M is on it. But that's gonna take time. 
