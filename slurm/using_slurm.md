@@ -5,6 +5,6 @@
 
  # Commands 
  ### IMPORTANT 
- Do NOT run heavy stuff on login node. (You can check this by running `hostname`on the terminal.) /
+ Do NOT run heavy stuff on login node. (You can check this by running `hostname`on the terminal.) \
  Do `salloc` first.\
  This  
