@@ -6,4 +6,9 @@
 ### Make a file 
 `touch <name_of_file>`
 
-###
+### Remove a directory (if empty)
+`rmdir <name_of_your_directory>`
+
+### Remove a directory (if it is not empty)
+`rm -rf <name_of_your_directory>`
+
