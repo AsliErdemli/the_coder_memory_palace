@@ -1,0 +1,8 @@
+# Connecting to High Performance Clusters of Unige
+
+There are 3 HPCs available: baobab, yddrasil, bamboo. 
+Find the login via : https://doc.eresearch.unige.ch/hpc/start
+On windows, I use Putty with username = short ISIS username for adults :) ;) 
+
+## File transfer 
+Use `scp <name of file> <username>@login1.bamboo.hpc.unige.ch:directory_where_to_copy` from commandprompt of your Windows local pc. 
