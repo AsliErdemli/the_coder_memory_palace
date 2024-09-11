@@ -25,7 +25,7 @@ use an sbatch by putting this is a file called "mriqc.sbatch"
 # Outputs ----------------------------------
 #SBATCH --output log/%x-%A-%a.out
 #SBATCH --error log/%x-%A-%a.err
-#SBATCH --mail-user=phd@oscaresteban.es
+#SBATCH --mail-user=asli.erdemli@unige.ch
 #SBATCH --mail-type=ALL
 # ------------------------------------------
 srun apptainer run mriqc_latest.sif \
@@ -57,3 +57,4 @@ srun apptainer run fmriprep_24.1.0rc2.sif \
      $HOME/horikawa/Horikawa_python_test/data/raw $HOME/horikawa/Horikawa_python_test/data/derivatives/fmriprep24.1.0 participant \
       --nprocs 12 --omp-nthreads 8 --fs-license=$HOME/horikawa/license.txt
 ```
+
